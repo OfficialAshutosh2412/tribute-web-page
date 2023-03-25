@@ -130,4 +130,9 @@ hr {
         font-size: 2em;
         font-weight: 100;
     }
+
+    .container img {
+        width: 200px;
+        height: 200px;
+    }
 }
