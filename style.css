@@ -99,4 +99,35 @@ hr {
     text-align: right;
 }
 
-@media (max-width)
+@media screen and (max-width:768px) {
+    .link {
+        text-align: center;
+    }
+
+    .introduction p,
+    .biography {
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container .quote {
+        padding: 0px;
+    }
+
+    .introduction,
+    .biography {
+        width: 90%;
+    }
+
+    .introduction p,
+    .biography ul li {
+        margin-top: 20px;
+    }
+
+    .introduction h1,
+    .biography h2 {
+        font-size: 2em;
+        font-weight: 100;
+    }
+}
