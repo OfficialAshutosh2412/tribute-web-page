@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f8f5f5;
+    height: 100%;
+    border: 10px solid rgb(0, 179, 134);
+}
+
+.container .profile {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.container img {
+    height: 260px;
+    width: 260px;
+    border-radius: 100%;
+    border: 10px solid rgb(0, 179, 134);
+    box-shadow: 5px 10px 20px 0px rgb(0, 0, 0);
+}
+
+.container .profile-caption {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+    font-weight: 50;
+}
+
+.container .profile-tagline {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(0, 128, 96);
+    font-weight: bolder;
+}
+
+
+.container .quote {
+    color: rgb(39, 39, 39);
+    margin: 20px auto;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: large;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.introduction {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.introduction h1 {
+    font-size: 60pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.introduction p,
+.biography {
+    font-size: 14pt;
+    letter-spacing: 3px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2rem;
+}
+
+.biography {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.biography h2 {
+    margin-bottom: 20px;
+    font-size: 40pt;
+}
+
+.introduction p::first-line {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+hr {
+    margin-top: 10px;
+    border: 2px solid rgb(0, 128, 96);
+}
+
+.link {
+    width: 60%;
+    margin: 20px auto;
+    text-align: right;
+}
+
+@media (max-width)
